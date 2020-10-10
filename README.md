@@ -19,6 +19,8 @@ The order of the exercises go as follows:
 11. [Exercise 10](./javascript-10.js)
 12. [Codecademy Code Challenge: JavaScript Fundamentals](./codecademy-challenges.js)
 13. [Ironhack's Mars Rover Challenge](./mars-rover.js)
+14. [Codecademy: Credit Card Validation challenge](./credit-card-validation.js)
+15. [Exercise 11](./javascript-11.js)
 
 
 Most of these can also be found on my CodePen: https://codepen.io/tassiaaccioly
