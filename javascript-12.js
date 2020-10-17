@@ -11,21 +11,21 @@ const menu = {
       _desserts: [],
       get appetizers() {
         if(this._appetizers) {
-          return `${this._appetizers}`
+          return `${this._appetizers}`;
         }
       },
       set appetizers(appetizerIn) {
         if(typeof appetizerIn === 'string') {
-          this._appetizers = appetizerIn
+          this._appetizers = appetizerIn;
         } else {
-          return `You're missing a appetizer's course`
+          return `You're missing a appetizer's course`;
         }
       },
       get mains() {
         if(this._mains) {
-          return `${this._mains}`
+          return `${this._mains}`;
         } else {
-          return `You're missing a main's course`
+          return `You're missing a main's course`;
         }
       },
       set appetizers(mainIn) {
@@ -35,9 +35,9 @@ const menu = {
       },
       get desserts() {
         if(this._desserts) {
-          return `${this._desserts}`
+          return `${this._desserts}`;
         }else {
-          return `You're missing a dessert`
+          return `You're missing a dessert`;
         }
       },
       set desserts(dessertIn) {
@@ -61,7 +61,7 @@ const menu = {
         this._courses[courseName].push(dish);
     },
     getRandomDishFromCourse(courseName) {
-      let dishes = this._courses[courseName]
+      let dishes = this._courses[courseName];
       let randomIndex = Math.floor(Math.random() * dishes.length);
       return this._courses[courseName][randomIndex];
     },
@@ -152,7 +152,7 @@ const team = {
     }
     this.games.push(game);
   }
-}
+};
 
 team.addPlayer('Steph', 'Curry', 28);
 team.addPlayer('Lisa', 'Leslie', 44);
